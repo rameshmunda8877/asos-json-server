@@ -1,14 +1,13 @@
 {
-  "name": "mock-json-server",
+  "name": "mock-server-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "mock server app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "abdul",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
